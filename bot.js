@@ -1,4 +1,4 @@
-var identity = web3.shh();
+var identity = web3.shh.newIdentity();
 
 status.command({
     name: "hello",
